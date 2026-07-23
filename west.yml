@@ -29,6 +29,3 @@ manifest:
           - nanapb
           - segger
           - tf-psa-crypto
-
-  group-filter:
-    - +optional
