@@ -19,3 +19,17 @@ manifest:
       repo-path: zephyr
       revision: v4.4.0
       path: zephyr
+      import:
+        name-allowlist:
+          - cmsis_6
+          - hal_stm32
+          - libmctp
+          - mbedtls
+          - mcuboot
+          - nanopb
+          - segger
+          - tf-psa-crypto
+
+  group-filter:
+    - +optional
+
