@@ -10,7 +10,7 @@ manifest:
       url-base: https://github.com/openbmc
 
   projects:
-	- name: libpldm
+    - name: libpldm
       remote: openbmc
       path: modules/lib/libpldm
       revision: 1c4a11442648a7ac670167b4d306a70376a35cc2
@@ -32,4 +32,3 @@ manifest:
 
   group-filter:
     - +optional
-
